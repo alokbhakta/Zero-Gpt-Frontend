@@ -5,7 +5,7 @@ import ElectricBorder from "../../reactBits/ElectricBorder/ElectricBorder";
 import ShinyText from "../../reactBits/ShinyText/ShinyText";
 import Particles from "../../reactBits/Particles/Particles";
 
-
+//this is comment
 function Register() {
   const [formData, setFormData] = useState({
     firstName: "",
