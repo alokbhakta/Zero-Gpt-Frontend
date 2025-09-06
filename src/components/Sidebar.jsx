@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Cookies from 'js-cookie';
+import './index.css'
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { div } from "motion/react-client";
 

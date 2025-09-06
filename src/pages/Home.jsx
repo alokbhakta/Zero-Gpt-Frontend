@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import axios from "axios";
+import './index.css'
 import { useNavigate, useParams } from "react-router-dom";
 import { str_obj } from "../utils/common";
 import Sidebar from "../components/Sidebar";
