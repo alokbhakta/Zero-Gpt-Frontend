@@ -34,6 +34,7 @@ function Login() {
         alert("New User Please Register First");
         console.log(err);
       });
+      console.log( "ye login ka log hai",import.meta.env.VITE_BACKEND_URL);
   };
 
   return (
