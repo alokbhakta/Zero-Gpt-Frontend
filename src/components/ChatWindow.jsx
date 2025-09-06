@@ -2,7 +2,6 @@ import React, { useEffect, useRef, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { io } from "socket.io-client";
-import './index.css'
 import { MenuBar } from "../photo";
 import ReactMarkdown from "react-markdown";
 import dotenv from 'dotenv'
